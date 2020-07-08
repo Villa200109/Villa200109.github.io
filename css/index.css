@@ -1,0 +1,461 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+html{
+  font-size: 14px;
+  scroll-behavior: smooth;
+}
+
+body{
+  font-size: 0px;
+  background: url(../img/1.jpg) center fixed;
+  background-size: cover;
+  padding-top: 50px;
+}
+
+#menuprincipal{
+  background-color: rgba(99, 110, 114,0.7);
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  top: 0px;
+  z-index: 1;  /*me permite mantener visible el menu*/
+  font-family: 'Chelsea Market', cursive;
+
+}
+
+
+#menuprincipal #imagen{
+  width: 20px;
+  height: 20px;
+}
+
+.Opciones{
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  padding: 15px 50px;
+  position: relative;
+  font-size: 2rem;
+  margin-bottom: 10px;
+
+}
+
+.Opciones:hover{
+  background: rgba(45, 52, 54,0.7);
+  border-radius: 15px;
+
+}
+
+
+h1{
+  font-size: 50px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  text-align: center;
+  background: rgba(72, 84, 96,0.6);
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+h3{
+   font-size: 50px;
+   color: white;
+}
+
+.pp  h3{
+  text-align: center;
+  color: black;
+}
+
+figure{
+  width: 500px;
+  text-align: center;
+  margin: 20px;
+  border-radius: 10px;
+  border: 2px solid white;
+  padding-top: 10px;
+  display: inline-block;
+  vertical-align: center;
+  background: black;
+}
+
+figure figcaption{
+  font-size: 30px;
+  color: white;
+}
+
+figure p{
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+figure p:hover{
+background: rgba(99, 110, 114,1.0);
+border: 10px;
+border-radius: 10px;
+padding: .5rem;
+}
+
+
+
+.Opciones{
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  padding: 15px 50px;
+  position: relative;
+  font-size: 1rem;
+}
+
+.inicio{
+  height: 50px;
+}
+
+.productos{
+  position: relative;
+  height: auto;
+  margin-top: 80px;
+
+}
+
+.productos .pp{
+  display: inline-block;
+}
+
+.compras{
+  display: inline-block;
+
+}
+
+
+
+
+
+.productos .pp #dorado{
+  width: 450px;
+  height: auto;
+  padding: 10px;
+  align: center;
+
+}
+
+
+
+.pp{
+
+      font-size: 20px;
+      font-family: 'Roboto', sans-serif;
+      padding-top: 70px;
+      width: 33.33rem;
+      height: 625px;
+      padding-left: 10px;
+      padding-right: 10px;
+      border: 1px solid #000000;
+      background-color: white;
+      margin: 10px;
+      margin-left: 70px;
+      margin-right: 70px;
+
+
+}
+
+
+.pp p{
+  padding: 10px;
+}
+
+
+img #primera{
+  width: 50%
+  border:
+}
+
+#Ubicacion{
+  align-items: center;
+  text-align: top;
+}
+
+iframe{
+  display:  block;
+  width: 1000px;
+  height: 200;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imagenes .primera{
+  width: 50%;
+  margin: 10px;
+  color: red;
+  display: block;
+}
+
+.ubicacion .hola{
+  font-size: 50px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  text-align: center;
+  background: rgba(72, 84, 96,0.6);
+  border-radius: 10px;
+  margin-top: 70px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#acercade{
+  align-items: center;
+  text-align: top;
+}
+
+
+.acercade .titulo{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  text-align: center;
+  background: rgba(72, 84, 96,0.7);
+  margin-top: 70px;
+  margin-left: 600px;
+  margin-right: 600px;
+}
+
+.acercade .texto{
+  font-size: 40px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  align-items: center;
+  padding: 40px;
+  background: rgba(99, 110, 114,0.5);
+}
+
+.acercade .def{
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  text-align: center;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(99, 110, 114,0.5);
+  height: 90px;
+}
+
+
+#formulario{
+  width: 500px;
+  position: relative;
+  top: 7%;
+  left: 35%;
+  right: 35%;
+  align-self:center;
+  text-align: center;
+  padding: 20px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  margin: 30px;
+  font-size: 3rem;
+  
+}
+
+#formulario legend{
+  font-size: 3rem;
+  color: #4F9AAF;
+  padding: 2px 10px;
+  background: rgba(252,250,241,1);
+  border-radius: 10px;
+  border-color: rgba(255, 255, 255, 0.7);
+  border: solid 3px;
+}
+
+input, textarea, select{
+  height: 28px;
+  width: 85%;
+  border: solid 1px #4F9AAF;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: rgba(250,222,196,0.6);
+  padding: 10px;
+  padding-left: 45px;
+  margin-top: 3px;
+  color: black;
+  font-size: 0.8rem;
+  font-family: arial;
+}
+
+.redi{
+  width: 100%;
+  height: auto;
+  font-size: 20px;
+  color: black;
+  background-color: blue;
+}
+
+.link{
+  border-radius: 5px;
+  padding: 10px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #333;
+  margin: 30px;
+}
+
+.li{
+  font-size: 20px;
+}
+
+header{
+  width: 100%;
+  height: auto;
+  background: rgba(99, 110, 114,0.5);
+  text-align: center;
+  padding: 20px;
+}
+
+/*menu principal*/
+@media all and (max-width: 968px){
+  #menuprincipal{
+    height: auto;
+    display: inline-block;
+  }
+  .Opciones{
+    font-size: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 25px;
+    position: relative;
+    margin-bottom: 3px;
+  }
+  #btmlogo{
+    display: none;
+  }
+
+}
+
+/*Productos*/
+@media all and (max-width: 968px){
+  .compras{
+    display: block;
+    width: 100%;
+  }
+
+  .productos .pp #dorado{
+    width: 250px;
+    height: auto;
+    padding-left: 100px;
+    
+  
+  }
+  h3{
+    font-size: 15px;
+  }
+
+  .pp{
+        font-size: 10px;
+        font-family: 'Roboto', sans-serif;
+        padding-top: 10px;
+        width: 95%;
+        height: auto;
+        border: 1px solid #000000;
+        background-color: white;
+        margin: 0px;
+
+  }
+
+  .pp p{
+    padding: 10px;
+    text-align: center;
+  }
+
+  img #primera{
+    width: 50%;
+    align-items: center;
+  }
+}
+
+/*Ubicacion*/
+@media all and (max-width: 968px){
+  .ubicacion{
+    width: 100%;
+    height: auto;
+  }.ubicacion .hola{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align: center;
+    background: rgba(72, 84, 96,0.6);
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }iframe{
+      display: block;
+      width: 100%;
+      height: 500px;
+      margin-top: 30px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  /*contactanos*/
+
+  @media all and (max-width: 968px){
+    #formulario{
+      display: none;
+    }
+  }
+
+    /*Acerca de*/
+
+    @media all and (max-width: 968px){
+      #acercade{
+        align-items: center;
+        text-align: top;
+      }
+      
+      
+      .acercade .titulo{
+        display: none;
+      }
+      
+      .acercade .texto{
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        text-align: center;
+        margin-top: 5px;
+        align-items: center;
+        padding: 20px;
+        background: rgba(99, 110, 114,0.5);
+      }
+      
+      .acercade .def{
+        font-size: 15px;
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        text-align: center;
+        align-items: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        background: rgba(99, 110, 114,0.5);
+        height: auto;
+      }
+    }
